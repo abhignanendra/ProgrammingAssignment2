@@ -1,4 +1,5 @@
-makeCacheMatrix <- function(x = matrix()) {
+library(MASS)
+makeVector <- function(x = matrix()) {
   inv <- NULL
   set <- function(y) {
     x <<- y
